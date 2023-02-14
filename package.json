@@ -1,0 +1,17 @@
+{
+  "name": "tulsi-restaurant",
+  "version": "1.0.0",
+  "description": "Web Application using MERN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tulsi",
+    "MERN",
+    "Food",
+    "Restaurant"
+  ],
+  "author": "Hiral Dineshkumar Patel",
+  "license": "MIT"
+}
