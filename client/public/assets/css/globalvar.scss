@@ -1,0 +1,84 @@
+@import "mixins.scss";
+.font-10 {
+  font-size: 10px;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-16 {
+  font-size: 16px;
+
+  @include phone {
+    font-size: 15px;
+  }
+}
+
+.font-18 {
+  font-size: 18px;
+  @include phone-xr {
+    font-size: 16px;
+  }
+}
+
+.font-20 {
+  font-size: 20px;
+  @include phone-xs {
+    font-size: 18px;
+  }
+  @include phone-6 {
+    font-size: 16px;
+  }
+}
+.font-24 {
+  font-size: 24px;
+  @include phone {
+    font-size: 22px;
+  }
+  @include phone-xs {
+    font-size: 20px;
+  }
+  @include phone-xr {
+    font-size: 18px;
+  }
+}
+.font-28 {
+  font-size: 28px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-36 {
+  font-size: 36px;
+}
+.font-40 {
+  font-size: 40px;
+  @include tab {
+    font-size: 35px;
+  }
+  @include phone-xs {
+    font-size: 30px;
+  }
+}
+.font-42 {
+  font-size: 42px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-50 {
+  font-size: 50px;
+}
+.font-55 {
+  font-size: 55px;
+}
+.text-999 {
+  color: #999999;
+}
