@@ -4,9 +4,9 @@ import Link from "next/link";
 import isEmail from "validator/lib/isEmail";
 import isEmpty from "validator/lib/isEmpty";
 import equals from "validator/lib/equals";
-import { showErrorMsg, showSuccessMsg } from "@/helpers/message";
-import { showLoading } from "@/helpers/loading";
-import { signup } from "@/api/auth";
+import { showErrorMsg, showSuccessMsg } from "../helpers/message";
+import { showLoading } from "../helpers/loading";
+import { signup } from "../api/auth";
 
 const register = () => {
   const [formData, setFormData] = useState({

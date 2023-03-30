@@ -2,5 +2,13 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/register": "pages/register.js"
+  "/api/hello": "pages/api/hello.js",
+  "/cart": "pages/cart.js",
+  "/food-gallery": "pages/food-gallery.js",
+  "/home": "pages/home.js",
+  "/": "pages/index.js",
+  "/my-orders": "pages/my-orders.js",
+  "/order": "pages/order.js",
+  "/register": "pages/register.js",
+  "/sign-in": "pages/sign-in.js"
 }
